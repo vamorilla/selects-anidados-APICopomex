@@ -1,0 +1,4 @@
+# selects-anidados-APICopomex
+Using Fetch, data from the COPOMEX API is consumed. Within the getStates function, the corresponding API query is carried out and the different States of the country of Mexico are incorporated in the first select. Then, that same select is associated with the change event, in order to make a new query to the API and thus add, to the second select, the Municipalities of the State selected by the user in the first select.
+
+Utilizando Fetch se consumen datos de la API COPOMEX. Dentro de la función obtenerEstados se realiza la correspondiente consulta a la API y se inncorporan en el primer select los distintos Estados del país de México. Luego a ese mismo select se lo asocia al evento change, a fin de realizar una nueva consulta a la API y así agregar, al segundo select, los Municipios del Estado seleccionado por el usuario en el primer select.
